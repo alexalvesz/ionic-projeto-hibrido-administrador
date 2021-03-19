@@ -57,6 +57,10 @@ export class PratoVisualizarPage implements OnInit {
   remover() {
     this.navCtrl.navigateForward(['/prato-remove', this.prato.id]);
   }
+editar(){
+  this.navCtrl.navigateForward(['/prato-editar', this.prato.id]);
+}
+
 
   downloadImage() {
     // template load
