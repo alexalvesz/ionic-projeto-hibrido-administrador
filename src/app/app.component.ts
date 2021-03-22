@@ -40,8 +40,21 @@ export class AppComponent implements OnInit {
     },
     {
 
+      title: 'Cadastrar Dietas',
+      url: '/cadastro-dieta',
+      icon: 'barbell'
+    },
+    
+    {
+
       title: 'Serviços',
       url: '/servicos-user',
+      icon: 'accessibility'
+    },
+    {
+
+      title: 'Cadastrar serviços',
+      url: '/servico-cadastrar',
       icon: 'accessibility'
     },
     {
